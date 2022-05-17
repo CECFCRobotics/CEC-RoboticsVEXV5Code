@@ -1,0 +1,17 @@
+using namespace vex;
+extern brain Brain;
+extern motor frontLeft;
+extern motor frontRight;
+extern motor backLeft;
+extern motor backRight;
+extern motor lIntake;
+extern motor rIntake;
+extern motor arm;
+extern motor dump;
+extern controller Adam;
+extern motor_group intake;
+extern motor_group Left;
+extern motor_group Right;
+extern motor_group DT;
+extern motor_group all;
+void vexcodeInit(void);
